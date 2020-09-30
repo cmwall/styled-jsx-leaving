@@ -1,22 +1,22 @@
 import Layout from "../components/layout"
 import Link from "next/link"
 
-export default function Home() {
+export default function Page2() {
   return (
     <Layout>
       <div className="container">
-        <p>Home Page</p>
+        <p>Page 2</p>
 
-        <Link href="/page-2">
-          <a>Link to Page 2</a>
+        <Link href="/">
+          <a>Link to Home</a>
         </Link>
       </div>
 
       <style jsx>{`
         .container {
           text-align: center;
-          color: darkred;
-          padding: 200px;
+          color: green;
+          padding: 50px;
         }
       `}</style>
     </Layout>
